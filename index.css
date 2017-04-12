@@ -1,0 +1,179 @@
+body {
+  background-image: url(img/fond.jpg);
+  margin: auto;
+  max-width: 1000px;
+}
+
+.ombt {
+    text-shadow: -2px -2px 0px pink;
+}
+
+.ombb {
+    border: 2px purple solid;
+    box-shadow: 3px 3px 8px red;
+}
+
+.bds {
+    border: 2px red outset;
+}
+
+.bda {
+    border: 2px red outset;
+    border-radius: 10px 30px 30px 10px;
+}
+
+.c1 {
+    color: green;
+    font-weight: bold;
+}
+
+.cr {
+    color: red;
+    font-weight: bold;
+}
+
+.c2 {
+    line-height: 22px;
+    color: green;
+    font-weight: bold;
+    border: 2px green solid;
+}
+
+.c3 {
+    line-height: 22px;
+    color: green;
+    font-weight: bold;
+    border: 2px green dotted;
+}
+
+.c4 {
+    line-height: 22px;
+    color: green;
+    font-weight: bold;
+    border: 2px green dashed;
+}
+
+.c5 {
+    line-height: 22px;
+    color: green;
+    font-weight: bold;
+    border: 2px green double;
+}
+
+.c6 {
+    line-height: 22px;
+    color: green;
+    font-weight: bold;
+    border: 2px green groove;
+}
+
+.c7 {
+    line-height: 22px;
+    color: green;
+    font-weight: bold;
+    border: 2px green ridge;
+}
+
+.c8 {
+    line-height: 22px;
+    color: green;
+    font-weight: bold;
+    border: 2px green inset;
+}
+
+.c9 {
+    line-height: 22px;
+    color: green;
+    font-weight: bold;
+    border: 2px green outset;
+}
+
+.Arial {
+    font-family: Arial;
+}
+
+.Arialblack {
+    font-family: "Arial Black";
+}
+
+.Comic {
+    font-family: "Comic Sans MS";
+}
+
+.Courier {
+    font-family: "Courier New";
+}
+
+.Georgia {
+    font-family: Georgia;
+}
+
+.Impact {
+    font-family: Impact;
+}
+
+.Times {
+    font-family: "Times New Roman";
+}
+
+.Trebuchet {
+    font-family: "Trebuchet MS"
+}
+
+.Verdana {
+    font-family: Verdana;
+}
+
+a {
+    font-weight: bold;
+}
+
+blockquote {
+    background-color: grey;
+    color: white;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+    background-color: grey;
+    min-width: 10%;
+    max-width: 70%;
+    height: 40px;
+    overflow: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    padding-left: 10px;
+    word-wrap: break-word;
+}
+
+.a2:hover {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.a3:active {
+    color: green;
+    font-weight: normal;
+    text-decoration: overline;
+}
+
+.a4:focus {
+    color: maroon;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.a5:visited {
+    color: pink;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px;
+}
