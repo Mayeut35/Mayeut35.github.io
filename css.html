@@ -10,20 +10,42 @@
 
 <body>
   <nav>
+    <div class="test">
+    <p class="navp">Généralités :</p>
     <ul>
       <li><a href="#notes">Notes</a></li>
-      <li><a href="#fonctionnement">Fonctionnement général du CSS</a></li>
+      <li><a href="#fonctionnement">Le CSS</a></li>
       <li><a href="#class">Attribut class</a></li>
       <li><a href="#univ">Balises universelles</a></li>
-      <li><a href="#selec">Sélécteurs avancés</a></li>
-      <li><a href="#police">Les polices</a></li>
+      <li><a href="#selec">Sélécteurs avancés</a></li></ul>
+    <p class="navp">Formatage du texte :</p>
+      <ul><li><a href="#police">Les polices</a></li>
       <li><a href="#taille">Taille de police</a></li>
       <li><a href="#igs">Italic, gras, souligné...</a></li>
       <li><a href="#align">Alignement du texte</a></li>
       <li><a href="#float">Les flottants</a></li>
-      <li><a href="#coulpo">Couleur de la police</a></li>
-      <li><a href="#coulfo">Couleur du fond</a></li>
-    </ul>
+      <li><a href="#coulpo">Couleur de la police</a></li></ul>
+    <p class="navp">Le fond :</p>
+      <ul><li><a href="#coulfo">Couleur du fond</a></li>
+      <li><a href="#fond">Appliquer un fond</a></li>
+      <li><a href="#fixe">Fixer le fond</a></li>
+      <li><a href="#repeat">Répeter le fond</a></li>
+      <li><a href="#posi">Position du fond</a></li>
+      <li><a href="#super">Super propriété</a></li></ul>
+    <p class="navp">Transparence :</p>
+      <ul><li><a href="#objet">Transparence objet</a></li>
+        <li><a href="#tfond">Transparence fond</a></li></ul>
+    <p class="navp">Les bordures :</p>
+      <ul><li><a href="#stand">Standards</a></li>
+        <li><a href="#arron">Arrondies</a></li></ul>
+    <p class="navp">Les ombres :</p>
+      <ul><li><a href="#ombbo">Sur boites</a></li>
+        <li><a href="#ombte">Sur textes</a></li></ul>
+    <p class="navp">Apparences dynamiques :</p>
+      <ul><li><a href="#liens">Les liens</a></li>
+
+      </ul>
+    </div>
   </nav>
   <section>
     <h1>Le CSS</h1>
@@ -214,17 +236,17 @@
         </ul>
 
     <h2>Le fond :</h2>
-        <h3>Appliquer une image de fond :</h3>
+        <h3 id="fond">Appliquer une image de fond :</h3>
         <ul>
             <li>On utilise la commande <span class="c1">background-image:
               url(image.png);</span></li>
         </ul>
-        <h3>Fixer l'image de fond :</h3>
+        <h3 id="fixe">Fixer l'image de fond :</h3>
         <ul>
             <li>On utilise <span class="c1">background-attachment: fixed;</span>
                ou <span class="c1">scroll</span></li>
         </ul>
-        <h3>Répéter le fond :</h3>
+        <h3 id="repeat">Répéter le fond :</h3>
         <ul>
             <li>On utilise <span class="c1">background-repeat: repeat;</span>
                 <ul>
@@ -239,7 +261,7 @@
                 </ul>
             </li>
         </ul>
-        <h3>Position du fond :</h3>
+        <h3 id="posi">Position du fond :</h3>
         <ul>
             <li>On utilise <span class="c1">background-position: top;</span>
               principalement avec <span class="c1">background-repeat:</span>
@@ -253,7 +275,7 @@
                 <li>On peu cumuler les attributs <span class="c1">
                   background-position: top right;</span></li>
         </ul>
-        <h3>Super propriété :</h3>
+        <h3 id="super">Super propriété :</h3>
         <ul>
             <li>On peu cumuler sur une seule ligne plusieurs propriétés au fond
                 <ul>
@@ -269,12 +291,12 @@
                 </li>
         </ul>
     <h2>Transparence :</h2>
-        <h3>Transparence de tout objet :</h3>
+        <h3 id="objet">Transparence de tout objet :</h3>
         <ul>
             <li>On utilise <span class="c1">opacity: 0.3;</span> avec 1 pour
               100%</li>
         </ul>
-        <h3>Transparence du fond :</h3>
+        <h3 id="tfond">Transparence du fond :</h3>
         <ul>
             <li>On préfèrera la notation RGBa pour gérer la transparence du fond
                 <ul>
@@ -284,7 +306,7 @@
             </li>
         </ul>
     <h2>Les bordures :</h2>
-        <h3 class="bds">Bordures standars :</h3>
+        <h3 id="stand" class="bds">Bordures standars :</h3>
         <ul>
             <li>Super propriété <span class="c1">border: largeur couleur type;
             </span>
@@ -313,14 +335,14 @@
               <span class="c1">border-top</span>, <span class="c1">bottom</span>
               , <span class="c1">left</span>, <span class="c1">right</span></li>
         </ul>
-        <h3 class="bda">Bordures arrondies :</h3>
+        <h3 id="arron" class="bda">Bordures arrondies :</h3>
         <ul>
             <li>On utilise <span class="c1">border-radius: 10px;</span></li>
             <li>On peu gérer chaque coin de la bordure <span class="c1">
               border-radius: 10px 5px 5px 2px;</span></li>
         </ul>
     <h2>Les ombres :</h2>
-        <h3 class="ombb">Ombres sur boites :</h3>
+        <h3 id="ombbo" class="ombb">Ombres sur boites :</h3>
         <ul>
             <li>On utilise <span class="c1">box-shadow: 2px 2px 2px black
               (inset);</span> qui gère dans l'ordre :
@@ -333,12 +355,13 @@
                 </ul>
             </li>
         </ul>
-        <h3 class="ombt">Ombre sur texte :</h3>
+        <h3 id="ombte" class="ombt">Ombre sur texte :</h3>
         <ul>
             <li>On utilise <span class="c1">text-shadow: 2px 2px 2px black;
             </span> avec le même ordre que pour les boites.</li>
         </ul>
     <h2>Apparences dynamiques :</h2>
+      <h3 id="liens">Les liens :</h3>
     <ul>
         <li>Il est possible de modifier l'apparence d'un élément en fonction que
            l'on passe la sourie dessus ou que l'on clic.</li>

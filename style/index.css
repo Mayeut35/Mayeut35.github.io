@@ -3,11 +3,47 @@ body {
   margin: auto;
   max-width: 1000px;
   display: flex;
+  flex-direction: row;
+}
+
+section
+{
+  margin-left: auto;
 }
 
 nav
 {
-  margin: 100px 20px auto auto;
+  margin: 20px 100px auto auto;
+  flex: 400px;
+  min-width: 200px;
+}
+
+.test
+{
+  position: fixed;
+}
+
+nav ul
+{
+  margin: 10px auto 30px auto;
+  list-style-type: none;
+  line-height: 25px;
+}
+
+nav ul a
+{
+  color: black;
+  background-color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.navp
+{
+  margin: 15px auto auto 40px;
+  line-height: 2px;
+  font-size: 1.2em;
+  text-decoration: underline;
 }
 
 .ombt {
