@@ -5,6 +5,11 @@ body {
   display: flex;
 }
 
+nav
+{
+  margin: 100px 20px auto auto;
+}
+
 .ombt {
     text-shadow: -2px -2px 0px pink;
 }
