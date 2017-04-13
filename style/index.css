@@ -2,6 +2,7 @@ body {
   background-image: url(/img/fond.jpg);
   margin: auto;
   max-width: 1000px;
+  display: flex;
 }
 
 .ombt {
@@ -24,17 +25,20 @@ body {
 
 .c1 {
     color: green;
+    background-color: inherit;
     font-weight: bold;
 }
 
 .cr {
     color: red;
+    background-color: inherit;
     font-weight: bold;
 }
 
 .c2 {
     line-height: 22px;
     color: green;
+    background-color: inherit;
     font-weight: bold;
     border: 2px green solid;
 }
@@ -42,6 +46,7 @@ body {
 .c3 {
     line-height: 22px;
     color: green;
+    background-color: inherit;
     font-weight: bold;
     border: 2px green dotted;
 }
@@ -49,6 +54,7 @@ body {
 .c4 {
     line-height: 22px;
     color: green;
+    background-color: inherit;
     font-weight: bold;
     border: 2px green dashed;
 }
@@ -56,6 +62,7 @@ body {
 .c5 {
     line-height: 22px;
     color: green;
+    background-color: inherit;
     font-weight: bold;
     border: 2px green double;
 }
@@ -63,6 +70,7 @@ body {
 .c6 {
     line-height: 22px;
     color: green;
+    background-color: inherit;
     font-weight: bold;
     border: 2px green groove;
 }
@@ -70,6 +78,7 @@ body {
 .c7 {
     line-height: 22px;
     color: green;
+    background-color: inherit;
     font-weight: bold;
     border: 2px green ridge;
 }
@@ -77,6 +86,7 @@ body {
 .c8 {
     line-height: 22px;
     color: green;
+    background-color: inherit;
     font-weight: bold;
     border: 2px green inset;
 }
@@ -84,44 +94,45 @@ body {
 .c9 {
     line-height: 22px;
     color: green;
+    background-color: inherit;
     font-weight: bold;
     border: 2px green outset;
 }
 
 .Arial {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
 }
 
 .Arialblack {
-    font-family: "Arial Black";
+    font-family: "Arial Black", sans-serif;
 }
 
 .Comic {
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", sans-serif;
 }
 
 .Courier {
-    font-family: "Courier New";
+    font-family: "Courier New", sans-serif;
 }
 
 .Georgia {
-    font-family: Georgia;
+    font-family: Georgia, sans-serif;
 }
 
 .Impact {
-    font-family: Impact;
+    font-family: Impact, sans-serif;
 }
 
 .Times {
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", sans-serif;
 }
 
 .Trebuchet {
-    font-family: "Trebuchet MS"
+    font-family: "Trebuchet MS", sans-serif;
 }
 
 .Verdana {
-    font-family: Verdana;
+    font-family: Verdana, sans-serif;
 }
 
 a {
@@ -141,19 +152,19 @@ h2 {
 h3 {
     font-size: 2em;
     background-color: grey;
+    color: inherit;
     min-width: 10%;
     max-width: 70%;
     height: 40px;
     overflow: auto;
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 60px;
+    margin: 20px auto 60px auto;
     padding-left: 10px;
     word-wrap: break-word;
 }
 
 .a2:hover {
     color: red;
+    background-color: inherit;
     font-weight: bold;
     text-decoration: none;
     font-style: italic;
@@ -161,19 +172,22 @@ h3 {
 
 .a3:active {
     color: green;
+    background-color: inherit;
     font-weight: normal;
     text-decoration: overline;
 }
 
 .a4:focus {
     color: maroon;
+    background-color: inherit;
     font-weight: normal;
     text-decoration: line-through;
 }
 
 .a5:visited {
     color: pink;
+    background-color: inherit;
     font-weight: bold;
     text-decoration: none;
-    text-shadow: 2px;
+    text-shadow: 2px 2px 1px red;
 }

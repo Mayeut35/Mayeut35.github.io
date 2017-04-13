@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="/style/index.css" media="screen" title="no title">
+    <link rel="stylesheet" href="/style/index.css" media="screen" title="no
+    title">
     <title>Le HTML</title>
   </head>
   <body>
@@ -24,29 +25,64 @@
         <li>Chaque ligne = &lt;li&gt;</li>
       </ul>
     <h2>Les liens :</h2>
-    <p>
       <ul>
-        <li>Balise de lien = &lt;a href="<span class="cr">what.html</span>"&gt;</li>
+        <li>Balise de lien = &lt;a href="<span class="cr">what.html</span>"&gt;
+        </li>
         <li>Attribut "title="xxx"" pour la bulle d'aide</li>
-        <li>Attribut "target="blank"" pour ouvrir le lien dans une autre page</li>
+        <li>Attribut "target=""" pour ouvrir le lien de différente façon :
+        <ul>
+          <li>target="_blank" : nouvelle fenetre ou onglet</li>
+          <li>target="_self" : meme frame que le lien cliqué</li>
+          <li>target="_parent" : dans le cadre parent (du niveau immédiatement
+            supérieur)</li>
+          <li>target="_top" : Ouvre les liens dans le niveau le plus haut de la
+            fenêtre courante (en remplaçant tous les encadrements)</li>
+          <li>target="nomdelaframe" : ouvre le lien dans la frame nomée</li>
+        </ul></li>
         <li>Créer une ancre avec "id" dans la balise d'origine</li>
-        <li><span class="cr">what.html</span> peu être un lien vers un autre site = <span class="c1">www.google.fr</span></li>
-        <li><span class="cr">what.html</span> peu être un lien vers une page de notre site = <span class="c1">page2.html</span></li>
-        <li><span class="cr">what.html</span> peu être un lien vers un sous dossier = <span class="c1">pages/page3.html</span></li>
-        <li><span class="cr">what.html</span> peu être un lien vers un dossier parent = <span class="c1">../page4.html</span></li>
-        <li><span class="cr">what.html</span> peu être un lien vers une ancre = <span class="c1">#nomdelancre</span></li>
-
+        <li><span class="cr">what.html</span> peu être un lien vers un autre
+          site = <span class="c1">www.google.fr</span></li>
+        <li><span class="cr">what.html</span> peu être un lien vers une page
+          de notre site = <span class="c1">page2.html</span></li>
+        <li><span class="cr">what.html</span> peu être un lien vers un sous
+          dossier = <span class="c1">pages/page3.html</span></li>
+        <li><span class="cr">what.html</span> peu être un lien vers un dossier
+          parent = <span class="c1">../page4.html</span></li>
+        <li><span class="cr">what.html</span> peu être un lien vers une ancre
+          = <span class="c1">#nomdelancre</span></li>
       </ul>
-    <h2>Les images :</h2>
+      <h2>Les images :</h2>
     <ul>
-      <li>Balise d'image = &lt;img src="image.jpg" alt="nom de l'image" /&gt;</li>
+      <li>Balise d'image = &lt;img src="image.jpg" alt="nom de l'image" /&gt;
+      </li>
       <li>Balise title pour bulle d'information</li>
       <li>On peu mixer les éléments :<ul>
-        <li>&lt;a href="image2.jpg"&gt;&lt;img src="image1.jpg" alt="nom de l'image" title="titre de l'image" /&gt;</a></li>
-        <li>Ceci donne une image cliquable vers autre chose (ici une autre image)</li>
+        <li>&lt;a href="image2.jpg"&gt;&lt;img src="image1.jpg" alt="nom de
+          l'image" title="titre de l'image" /&gt;</li>
+        <li>Ceci donne une image cliquable vers autre chose (ici une autre
+          image)</li>
       </ul></li>
     </ul>
-    </p>
+    <p>
+      <h2>Les balises structurantes:</h2>
+      <p><a href="https://user.oc-static.com/files/343001_344000/343677.png"
+        target="_blank" title="Balises structurantes">Visuel des balises
+        structurantes</a></p>
+    <ul>
+      <li>&lt;header&gt; l'en-tete (logo, bannière, slogan...) </li>
+      <li>&lt;footer&gt; le pied de page (Liens de contacts, nom de l'auteur,
+        mentions légales,...)</li>
+      <li>&lt;nav&gt; le menu</li>
+      <li>&lt;section&gt; sert à regrouper des contenus en fonction de leur
+        thématique. Elle englobe généralement une portion du contenu au centre
+        de la page.</li>
+      <li>&lt;aside&gt; conçue pour contenir des informations complémentaires
+        au document que l'on visualise. Ces informations sont généralement
+        placées sur le côté (bien que ce ne soit pas une obligation)</li>
+      <li>&lt;article&gt; sert à englober une portion généralement autonome
+        de la page. C'est une partie de la page qui pourrait ainsi être reprise
+        sur un autre site. C'est le cas par exemple des actualités </li>
+    </ul>
 
 
 
@@ -60,6 +96,8 @@
 
 
 
-    <a href="index.html" target=""><img src="img/back.png" alt="Retour" /></a>
+
+    <a href="index.html" target="_self"><img src="img/back.png" alt="Retour" />
+    </a>
   </body>
 </html>
